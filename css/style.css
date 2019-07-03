@@ -1,0 +1,17 @@
+#movies img, #movie img{
+    width:100%;
+}
+#searchText{
+    width:100%;
+    padding: 10px;
+}
+@media(min-width:960px)
+{
+    #movies .col-md-3 .movieData{
+        height: 400px;
+    }
+    
+    #movies .col-md-3 img{
+        height: 295px;
+    }
+}

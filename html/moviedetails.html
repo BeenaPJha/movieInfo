@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Movie Information</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel ="stylesheet" type="text/css" href="../css/style.css">        
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a href="index.html">MovieInfo</a>
+            </div>
+        </div>
+
+
+     
+        <div class="container">
+            <div id="movies" class="movieData"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="../js/index.js"></script>
+        <script>
+            getMovie();
+        </script>
+    </body>
+</html>
